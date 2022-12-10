@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Student name: Le Thu Ha - ID: 301259611-->
+
+<head>
+    <title>Bosley Real Estate - Contact us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="bg-img">
+            <div class="container">
+                <div class="nav-col-1">
+                    <a href="homepage.html"><img src="Homepage footage/RE_logo.png" alt="Logo" id="logo"></a>
+                </div>
+                <div class="nav-col-2">
+                    <a href="homepage.html">Home</a>
+                    <a href="current listings.html">Listings</a>
+                    <a class="active" href="contact.html">Contact us</a>
+                    <a href="sitemap.html">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="contact">
+            <h2 class="btn-heading">CONTACT US</h2>
+        </div>
+        <hr style="border-style: solid; border-color: rgba(126, 74, 15, 0.181); border-width: 1px;">
+        <div class="contact-container">
+            <form action="mailto:thuhale2210@gmail.com" method="post">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phonenumber" name="phonenumber" placeholder="Your phone number">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Your email address">
+                <label for="property">Type of Property</label>
+                <select id="property" name="property">
+                    <option value="Choose your desired type of property">Choose your desired type of property</option>
+                    <option value="House">House</option>
+                    <option value="Condominium">Condominium</option>
+                </select>
+                <label for="no-of-bedrooms">Number of Bedrooms</label>&nbsp;
+                <input type="number" id="no-of-bedrooms" name="no-of-bedrooms" placeholder="0" min="1" max="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="no-of-bedrooms">Number of Bathrooms</label>&nbsp;
+                <input type="number" id="no-of-bathrooms" name="no-of-bathrooms" placeholder="0" min="1" max="5"><br>
+                <label for="pricerange">Price Range</label>
+                <select id="pricerange" name="pricerange">
+                    <option value="Choose your desired price range">Choose your desire price range</option>
+                    <option value="$600,000 - $800,000">$600,000 to $800,000</option>
+                    <option value="$800,000 - $999,000">$800,000 to less than $1,000,000</option>
+                    <option value="$1,000,000 - $1,500,000">$1,000,000 to $1,500,000</option>
+                    <option value="$1,500,000+">More than $1,500,000</option>
+                </select>
+                <label for="comment">Additional Comment</label>
+                <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Type your comment here"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <br>
+</body>
+
+<footer>
+    <section>
+        <div class="footer-col-1">
+            <h3>Bosley Real Estate Ltd.</h3>
+            <p>103 Vanderhoof Avenue
+                <br>Toronto, ON M4G 2H5
+                <br>647-461-7771
+            </p>
+            <p>Should you require assistance in navigating our website or searching for real estate,<br>please contact
+                our offices at <strong>647-461-7771</strong>.</p>
+            <a href="https://www.youtube.com/user/Bosleyrealestate" class="fa fa-youtube"></a>&nbsp;&nbsp;
+            <a href="https://www.facebook.com/BosleyRealEstate" class="fa fa-facebook"></a>&nbsp;&nbsp;
+            <a href="http://twitter.com/bosleyre" class="fa fa-twitter"></a>&nbsp;&nbsp;
+            <a href="https://www.instagram.com/bosleyrealestate/" class="fa fa-instagram"></a>&nbsp;&nbsp;
+        </div>
+        <div class="footer-col-2">
+            <h3>MLS Disclaimer</h3>
+            <img src="Homepage footage/MLS Disclaimer.png" alt="mls-disclaimer" style="width: 40%;">
+            <p>Toronto Real Estate Board (TRREB); All information deemed reliable but not guaranteed. All properties are
+                subject to prior sale, change or withdrawal. Neither listing broker(s) or information provider(s) shall
+                be responsible for any typographical errors, misinformation, misprints and shall be held totally
+                harmless. Listing(s) information is provided for consumer's personal, non-commercial use and may not be
+                used for any purpose other than to identify prospective properties consumers ...</p>
+        </div>
+    </section>
+</footer>
+
+</html>
