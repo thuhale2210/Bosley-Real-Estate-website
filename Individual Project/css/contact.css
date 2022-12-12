@@ -64,12 +64,12 @@ body {
 .nav-col-2 a:hover {
     background-color: #bebcd3;
     color: white;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .nav-col-2 a.active {
     color: white;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 /* ------ Quick button ------- */
